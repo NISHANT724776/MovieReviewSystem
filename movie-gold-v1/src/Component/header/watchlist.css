@@ -1,0 +1,27 @@
+.watchlist-container {
+    padding: 20px;
+}
+
+.watchlist-movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.watchlist-movie-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.watchlist-movie-poster {
+    width: 100%;
+    height: auto;
+}
+
+.watchlist-movie-info {
+    padding: 10px;
+}
